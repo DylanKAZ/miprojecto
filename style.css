@@ -1,0 +1,297 @@
+scroll-behavior smooth    
+body{   
+    margin: 0;   
+    background-color: #EABE6C;   
+}   
+section{   
+    min-height: 95vh;   
+}   
+.hero{   
+    background-color: #EABE6C;   
+    color: #240A34;   
+    display: flex;   
+}   
+.korobka{   
+    display: flex;   
+    justify-content: center;   
+    align-items: center;   
+    width: 50%;   
+    height: 95vh;   
+}   
+.korobka2{   
+    display: flex;   
+    justify-content: center;   
+    align-items: end;   
+    width: 40%;   
+    height: 95vh;   
+   
+}   
+h1{   
+    margin: 0;   
+    font-size: 100px;   
+}   
+h2{   
+    margin: 0;   
+    font-size: 50px;   
+}   
+h3{   
+    margin: 0;   
+    font-size: 30px;   
+}   
+.textcenter{   
+    text-align: center;   
+}   
+   
+img{   
+    width: 80%;   
+}   
+.w50{   
+    width: 70%;   
+    position: relative;   
+}   
+input{   
+    display: block;   
+    margin: 30px 0;   
+    width: 100%;   
+    height: 30px;   
+    font-size: 30px;   
+    padding: 15px 30px;   
+    border-radius: 30px;   
+    border: 0;   
+}   
+.center{   
+    display: flex;   
+    justify-content: center;   
+}   
+#contactme{   
+    padding: 50px;   
+    color:#240A34;   
+    background-color: #FFEDD8;   
+    position: relative;   
+    z-index: 3;   
+}   
+.m50{   
+    margin: 50px;   
+}   
+   
+   
+/* Все про меню */   
+.logo{   
+    font-size: 30px;   
+    text-decoration: none;   
+    margin: 0 30px;   
+    font-weight: 600;      
+    color: #240A34;    
+}   
+.link{   
+    font-size: 30px;   
+    text-decoration: none;   
+    margin: 0 30px;   
+    color: #240A34;   
+}   
+.link1{   
+    font-size: 30px;   
+    text-decoration: none;   
+    margin: 0 30px;   
+    color: #240A34;   
+}   
+.link2{   
+    font-size: 30px;   
+    text-decoration: none;   
+    margin: 0 30px;   
+    color: #240A34;   
+}   
+.link3{   
+    font-size: 30px;   
+    text-decoration: none;   
+    margin: 0 30px;   
+    color: #240A34;   
+}   
+   
+.right{   
+    position: absolute;   
+    right: 80px;   
+}   
+.btn{   
+    padding: 10px 30px;   
+    background-color: #EABE6C;   
+    border-radius: 30px;   
+    color: #240A34;   
+}   
+   
+   
+/*Все про пятно*/   
+.piatno{   
+    z-index: 1;   
+    position: absolute;   
+    width: 1px;   
+    height: 1px;   
+    top: 800px;   
+    left: 75%;   
+    box-shadow: 0px 0px 300px 300px #f2d8a7 ;   
+}   
+img{   
+    z-index: 2;   
+}   
+   
+/*Все про блог*/   
+#myblog{   
+    padding: 150px 0;   
+    margin-bottom: 100px;   
+}   
+.card{   
+    width: 500px;   
+    background-color: #EABE6C;   
+    padding: 35px ;   
+    border-radius: 30px;   
+}   
+.w100{   
+    width: 100%;   
+}   
+.cardbtn{   
+    text-decoration: none;   
+    width: 500px;   
+    display: block;   
+    margin: 0 150px;   
+}   
+.dflex{   
+    display: flex;   
+}   
+.w80{   
+    width: 80%;   
+}   
+.chiutnizhe{   
+    margin-top: 450px;   
+}   
+#aboutme{   
+    height: 100vh;   
+    background-color: #f2d8a7;    
+    width: 100%;   
+    color: #240A34;   
+    text-align: center; 
+}   
+.about{   
+    font-size: 100px;   
+    text-align: center; 
+}   
+#projects {   
+    background-color: #EABE6C;   
+    color: #240A34;   
+}   
+   
+#blog {   
+    padding: 100px 0;   
+    background-color: #FFEDD8;   
+    color: #240A34;   
+}   
+.project-block {   
+    background-color: #891652;   
+    color: #240A34;   
+    padding: 20px;   
+    border-radius: 10px;   
+    margin-bottom: -95px;   
+    height: 210px;  
+    left: auto;  
+    align-items: center;  
+    margin-right: 500px;  
+}   
+   
+.project-block h2 {   
+    margin: 0;   
+}   
+   
+.blog-post {   
+    color: #240A34;   
+    text-decoration: none;   
+    margin-bottom: 20px;   
+    display: block;   
+}   
+   
+.blog-post .card {   
+    background-color: #EABE6C;   
+    padding: 20px;   
+    border-radius: 10px;   
+}   
+   
+.blog-post .card h2 {   
+    margin: 0;   
+}   
+.hope{   
+    font-size: 20px;   
+    margin-right: 1000px; 
+    margin-left: 200px; 
+ 
+}   
+.knopka{   
+    border-radius: 10px;   
+    text-align: left;   
+    background-color: #EABE6C;   
+}   
+.nuhuh{   
+    background-color: #EABE6C;   
+    border-radius: 30px;
+    margin: 10px;   
+    height: 54px;   
+    text-align: center;  
+}   
+.project-black{  
+    background-color: #891652;   
+    color: #240A34;   
+    padding: 20px;   
+    border-radius: 10px;   
+    margin-bottom: 20px;   
+    height: 210px;  
+    align-items: center;  
+    margin-left: 500px; 
+}  
+.Leon {  
+    margin-bottom: -100px;  
+    margin-left: 40px;  
+    margin-right: 450px;  
+}  
+.z50{  
+    width: 100%;  
+}  
+.lego{ 
+    width: 30%; 
+    margin-left: 1000px; 
+    margin-right: 100px; 
+    margin-bottom: 40px; 
+    margin-top: -200px; 
+} 
+.palindrome{ 
+    margin-left: 500px; 
+    margin-bottom: 0px; 
+    margin-top: -320px; 
+} 
+#myskills{ 
+    width: 100%; 
+    background-color: #891652; 
+ 
+} 
+.arrow { 
+    width: 0; 
+    height: 0; 
+    border-left: 20px; 
+    border-right: 20px; 
+    border-bottom: 40px black; 
+} 
+.MySkills{ 
+    text-align: center; 
+} 
+.English{ 
+    margin-bottom: 30px; 
+} 
+.IT{ 
+    margin-bottom: 30px; 
+} 
+.Math{ 
+    margin-bottom: 30px; 
+} 
+.Geography{ 
+    margin-bottom: 30px; 
+} 
+   
+@media only screen and (max-width: 600px) {   
+   
+}
